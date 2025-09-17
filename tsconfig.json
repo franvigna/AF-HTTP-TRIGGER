@@ -1,10 +1,17 @@
 {
   "compilerOptions": {
+    "target": "es2019",
     "module": "commonjs",
-    "target": "es6",
+    "lib": ["es2020", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "outDir": "dist",
-    "rootDir": ".",
-    "sourceMap": true,
-    "strict": false
-  }
+    "rootDir": "./", 
+    "skipLibCheck": true,
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src/**/*.ts"],   // explícito
+  "exclude": ["node_modules", "dist"]
 }
