@@ -16,6 +16,8 @@
     "@azure/functions": "^4.0.0",
     "@azure/msal-node": "^3.7.4",
     "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@pnp/nodejs": "^4.16.0",
+    "@pnp/sp": "^4.16.0",
     "docx": "^9.5.1",
     "isomorphic-fetch": "^3.0.0"
   },
